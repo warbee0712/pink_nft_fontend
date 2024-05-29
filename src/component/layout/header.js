@@ -24,7 +24,7 @@ function ResponsiveAppBar() {
 	};
 
 	return (
-		<AppBar position="static">
+		<AppBar position="static" style={{padding:10}}>
 			<Container maxWidth="xl">
 				<Toolbar disableGutters>
 					<AdbIcon sx={{ display: { xs: 'none', sm: 'flex' }, mr: 1 }} />
@@ -112,7 +112,7 @@ function ResponsiveAppBar() {
 					</Box>
 
 					<Box sx={{ flexGrow: 0 }}>
-						<Button variant='contained'  sx={{ p: 0 }} color="error" size='large' style={{ borderRadius:"40px", padding:"10px" }}>Buy Now</Button>
+						<Button variant='contained'  sx={{ p: 0 }} color="error" size='large' style={{ borderRadius:"40px", padding:"10px", paddingLeft:"20px", paddingRight:"20px", fontSize:"20px" }}>Buy Now</Button>
 					</Box>
 				</Toolbar>
 			</Container>

@@ -1,6 +1,5 @@
 import React from 'react';
 import { 
-	Button,
 	Paper,
 	Grid,
 	Typography
@@ -26,7 +25,6 @@ const Dashboard = () => {
 				}}>
 					<Grid container spacing={2} justifyContent="center" alignItems="center" style={{width:"95%"}}>
 						<Grid item xs = {12} sm = {4} md = {3}>
-							<Button variant='contained' color="error" size='large' style={{ fontSize: "20px", borderRadius:"40px" }}>Buy Now</Button>
 						</Grid>
 						<Grid item xs = {12} sm = {8} md = {3}>
 							<Paper
