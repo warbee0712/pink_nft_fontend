@@ -42,7 +42,7 @@ export default function MediaCard(props) {
 						</IconButton>
 					</div>
 				}
-				subheader="$350.4"
+				subheader="350.4"
 			/>
 			<CardMedia
 				component="img"
